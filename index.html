@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Netflix Survey Form">
+    <title>NETFLIX Survey Form</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+<main class="survey-hero-wrapper">
+    <div class="container">
+        <div>
+            <div class="features-col">
+                <div class="form-hero-container" style="background-color: black!important;">
+
+                    <h1 class="display-4">NET<span style="color: red;">FLIX</span></h1>
+                    <p class="lead">
+                        Thank you for signing up with Netflix. Tell us more about you.
+                    </p>
+                    <form action="">
+                        <div class="grid-row">
+                            <div class="col">
+                                <input type="text" required name="name" placeholder="Your Name" id="name" class="form-control">
+
+                                <input type="text" required name="age" placeholder="Your Age" id="age" class="form-control">
+
+                                <input type="email" required name="email" placeholder="Your Email" id="email" class="form-control">
+                                <h2>Genre TYpe</h2>
+                                <input type="checkbox" name="action" placeholder="Action">Action <br>
+                                <input type="checkbox" name="comedy" placeholder="Comedy">Comedy <br>
+                                <input type="checkbox" name="horror" placeholder="Horror">Horror <br>
+                            </div>
+                            <div class="col">
+                                <h2>Gender</h2>
+                                <input type="checkbox" name="action" placeholder="Action">Male <br>
+                                <input type="checkbox" name="comedy" placeholder="Comedy">Female <br>
+                                <input type="checkbox" name="horror" placeholder="Horror">Non-binary <br>
+                                <br>
+                                <textarea name="feedback" required id="form" placeholder="Your Feedback" class="form-control" rows="7"></textarea>
+                                <button class="btn btn-primary" type="submit">send survey</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
