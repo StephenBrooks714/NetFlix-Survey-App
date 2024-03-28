@@ -32,12 +32,30 @@ body {
     padding-top: -10px;
     padding-bottom: 50PX;
 }
+.after-container-wrapper {
+    width: 95%;
+    margin: auto;
+    margin-top: 90px;
+}
 .mask1 {
     background-color: rgba(0, 0, 0, 0.407);
     mask-image: linear-gradient(rgba(0, 0, 0, 0.4));
     padding-bottom: 40px;
 }
+.mask2 {
+    background-color: rgba(0, 0, 0, 0.705);
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.715));
+    padding-bottom: 40px;
+    text-align: center;
+}
 .suvery-form {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.407);
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.204));
+    padding: 20px;
+}
+.after-suvery-form {
     max-width: 700px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.407);
@@ -59,4 +77,33 @@ body {
     color: white;
     background-color: blue;
     border-radius: 5px;
+}
+
+/* home.html page css */
+.display-3 {
+    font-size: 2rem;
+}
+.grid-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-area: auto;
+}
+.col {
+    margin: 30px;
+}
+.card {
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+.img-fluid {
+    max-width: 400px;
+    min-width: 250px;
+    max-height: 250px;
 }
