@@ -7,47 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Netflix Survey Form">
     <title>NETFLIX Survey Form</title>
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-<main class="survey-hero-wrapper">
-    <div class="container">
-        <div>
-            <div class="features-col">
-                <div class="form-hero-container" style="background-color: black!important;">
+<main class="container-wrapper">
+    <section class="mask1">
+        <h1 class="display-4">NET<span style="color: red;">FLIX</span></h1>
+            <p class="lead">
+                Thank you for signing up with Netflix. Tell us more about you.
+            </p>
+        <article class="suvery-form" style="background-color: black; opacity: 0.7;">
+            <form action="#!" method="post" enctype="multipart/form-data">
+                <div>
+                    <div>
+                        <input type="text" required name="name" placeholder="Your Name" id="name" class="form-control">
 
-                    <h1 class="display-4">NET<span style="color: red;">FLIX</span></h1>
-                    <p class="lead">
-                        Thank you for signing up with Netflix. Tell us more about you.
-                    </p>
-                    <form action="#!" method="post" enctype="multipart/form-data">
-                        <div class="grid-row">
-                            <div class="col">
-                                <input type="text" required name="name" placeholder="Your Name" id="name" class="form-control">
+                        <input type="text" required name="age" placeholder="Your Age" id="age" class="form-control">
 
-                                <input type="text" required name="age" placeholder="Your Age" id="age" class="form-control">
-
-                                <input type="email" required name="email" placeholder="Your Email" id="email" class="form-control">
-                                <h2>Genre TYpe</h2>
-                                <input type="checkbox" name="action" placeholder="Action">Action <br>
-                                <input type="checkbox" name="comedy" placeholder="Comedy">Comedy <br>
-                                <input type="checkbox" name="horror" placeholder="Horror">Horror <br>
-                            </div>
-                            <div class="col">
-                                <h2>Gender</h2>
-                                <input type="checkbox" name="action" placeholder="Action">Male <br>
-                                <input type="checkbox" name="comedy" placeholder="Comedy">Female <br>
-                                <input type="checkbox" name="horror" placeholder="Horror">Non-binary <br>
-                                <br>
-                                <textarea name="feedback" required id="form" placeholder="Your Feedback" class="form-control" rows="7"></textarea>
-                                <button class="btn btn-primary" type="submit">send survey</button>
-                            </div>
-                        </div>
-                    </form>
+                        <input type="email" required name="email" placeholder="Your Email" id="email" class="form-control">
+                        <h2>Genre TYpe</h2>
+                        <input type="checkbox" name="action" placeholder="Action">Action <br>
+                        <input type="checkbox" name="comedy" placeholder="Comedy">Comedy <br>
+                        <input type="checkbox" name="horror" placeholder="Horror">Horror <br>
+                    </div>
+                    <div>
+                        <h2>Gender</h2>
+                        <input type="checkbox" name="action" placeholder="Action">Male <br>
+                        <input type="checkbox" name="comedy" placeholder="Comedy">Female <br>
+                        <input type="checkbox" name="horror" placeholder="Horror">Non-binary <br>
+                        <br>
+                        <textarea name="feedback" required id="form" placeholder="Your Feedback" class="form-control" rows="7"></textarea>
+                        <button class="btn btn-primary" type="submit">send survey</button>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </form>
+        </article>
+    </section>
 </main>
 </body>
 </html>

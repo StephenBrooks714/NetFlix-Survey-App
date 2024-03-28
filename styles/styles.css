@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background: url(../assets/background_image.png)
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.display-4 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -11px;
+}
+.lead {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 900;
+}
+.container-wrapper {
+    width: 95%;
+    margin: auto;
+    padding-top: -10px;
+    padding-bottom: 50PX;
+}
+.mask1 {
+    background-color: rgba(0, 0, 0, 0.407);
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.4));
+    padding-bottom: 40px;
+}
+.suvery-form {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.407);
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.204));
+    padding: 20px;
+}
+.form-control {
+    width: 90%;
+    padding: 10px;
+    color: black;
+    margin-bottom: 7px;
+}
+.btn {
+    cursor: pointer;
+    border: 1px solid blue;
+    padding: 9px;
+}
+.btn-primary {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
