@@ -37,8 +37,7 @@ body {
 }
 .after-container-wrapper {
     width: 95%;
-    margin: auto;
-    margin-top: 90px;
+    margin: 90px auto auto;
 }
 .mask1 {
     background-color: rgba(0, 0, 0, 0.407);
@@ -51,14 +50,14 @@ body {
     padding-bottom: 40px;
     text-align: center;
 }
-.suvery-form {
+.survey-form {
     max-width: 700px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.407);
     mask-image: linear-gradient(rgba(0, 0, 0, 0.204));
     padding: 20px;
 }
-.after-suvery-form {
+.after-survey-form {
     max-width: 700px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.407);
@@ -70,16 +69,19 @@ body {
     padding: 10px;
     color: black;
     margin-bottom: 7px;
+    margin-top: 7px;
 }
 .form-control {
     width: 90%;
     padding: 10px;
     color: black;
     margin-bottom: 7px;
+    margin-top: 7px;
 }
 .box {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    display: block;
 }
 .text-center {
     text-align: center;
@@ -95,6 +97,9 @@ body {
     color: white;
     background-color: rgb(255, 0, 0);
     border-radius: 23px;
+}
+label {
+    font-size: 20px;
 }
 
 /* home.html page css */
