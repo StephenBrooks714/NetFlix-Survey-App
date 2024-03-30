@@ -18,32 +18,43 @@
                 Thank you for signing up with Netflix. Tell us more about you.
             </p>
         <article class="suvery-form" style="background-color: black; opacity: 0.7;">
-            <form action="thankYou.html">
-                <div>
-                    <div>
-                        <input type="text" required name="name" placeholder="Your Name" id="name" class="form-control">
-
-                        <input type="text" required name="age" placeholder="Your Age" id="age" class="form-control">
-
-                        <input type="email" required name="email" placeholder="Your Email" id="email" class="form-control">
-                        <h2>Genre Type</h2>
-                        <input type="checkbox" name="action" placeholder="Action">Action <br>
-                        <input type="checkbox" name="comedy" placeholder="Comedy">Comedy <br>
-                        <input type="checkbox" name="horror" placeholder="Horror">Horror <br>
-                    </div>
-                    <div>
-                        <h2>Gender</h2>
-                        <input type="checkbox" name="action" placeholder="Action">Male <br>
-                        <input type="checkbox" name="comedy" placeholder="Comedy">Female <br>
-                        <input type="checkbox" name="horror" placeholder="Horror">Non-binary <br>
-                        <br>
-                        <textarea name="feedback" required id="form" placeholder="Your Feedback" class="form-control" rows="7"></textarea>
-                        <button class="btn btn-primary" type="submit">send survey</button>
+            <form action="result.html" id="myForm">
+                <div class="box">
+                    <label for="name">Your Name</label> <br>
+                    <input type="text" placeholder="Enter your name" required name="name" id="name" value="" class="form-control"> <br>
+                    <label for="age">Age</label> <br>
+                    <input type="number" min="18" max="70" placeholder="Enter your age" required value="" name="age" id="age" class="form-control"> <br>
+                    <label for="email">Your Email</label> <br>
+                    <input type="email" required name="email" placeholder="Enter your Email" value="" id="email" class="form-control"> <br>
+                    <label for="series">Series</label> <br>
+                    <select name="series" class="series-form-control" id="series">
+                        <option value="" selected>Series</option>
+                        <option value="western">Western</option>
+                        <option value="horror">Horror</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="mystery">Mystery</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <h2>Genre Type</h2>
+                    <input type="checkbox" name="action" id="action" value="" placeholder="Action">Action <br>
+                    <input type="checkbox" name="comedy" id="comedy" value="" placeholder="Comedy">Comedy <br>
+                    <input type="checkbox" name="horror" id="horror" value="" placeholder="Horror">Horror <br>
+                    <h2>Gender</h2>
+                    <input type="checkbox" name="male" id="male" value="" placeholder="male">Male <br>
+                    <input type="checkbox" name="female" id="female" value="" placeholder="female">Female
+                </div>
+                <div class="box">
+                    <label for="form">Feedback</label> <br>
+                    <textarea name="feedback" required placeholder="My comment" value="" id="feedback" class="form-control" rows="7"></textarea>
+                    <div class="text-center">
+                        <input class="btn btn-primary" type="submit" value="Submit">
                     </div>
                 </div>
             </form>
         </article>
     </section>
 </main>
+
 </body>
 </html>
