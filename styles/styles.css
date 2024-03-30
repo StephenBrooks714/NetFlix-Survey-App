@@ -30,7 +30,7 @@ body {
     font-weight: 900;
 }
 .container-wrapper {
-    width: 95%;
+    width: 90%;
     margin: auto;
     padding-top: -10px;
     padding-bottom: 50PX;
@@ -49,13 +49,14 @@ body {
     mask-image: linear-gradient(rgba(0, 0, 0, 0.715));
     padding-bottom: 40px;
     text-align: center;
+    padding-top: 20px;
 }
 .survey-form {
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.407);
     mask-image: linear-gradient(rgba(0, 0, 0, 0.204));
-    padding: 20px;
+    padding: 30px;
 }
 .after-survey-form {
     max-width: 700px;
@@ -65,14 +66,14 @@ body {
     padding: 20px;
 }
 .series-form-control {
-    width: 93%;
+    width: 99%;
     padding: 10px;
     color: black;
     margin-bottom: 7px;
     margin-top: 7px;
 }
 .form-control {
-    width: 90%;
+    width: 95%;
     padding: 10px;
     color: black;
     margin-bottom: 7px;
@@ -92,6 +93,8 @@ body {
     border: 1px solid rgb(255, 0, 0);
     padding: 9px;
     font-size: 20px;
+    height: 45px;
+    width: 210px;
 }
 .btn-primary {
     color: white;
@@ -121,6 +124,16 @@ label {
     background-color: white;
     padding: 20px;
     color: black;
+}
+.logo-circle {
+    font-size: 5rem;
+    border: 1px solid white;
+    color: red;
+    width: 140px;
+    height: 110px;
+    border-radius: 50%;
+    padding-top: 20px;
+    margin: auto auto -30px;
 }
 @media(max-width: 1108px) {
     .grid-row {
